@@ -2,7 +2,7 @@
 
 
 ### Submission Process :
-- Deadline for the Midterm is 11th November EOD.
+- Deadline for the Midterm is March 23rd, 2021 @ 12PM.
 - Download the zip of the project --> unzip and open using Intellij --> File --> New --> Project Using Existing Source --> Select the downloaded (unzipped) project's directory --> Create Project From Existing Source --> Next --> Next --> Next --> Next
 - Make sure to add all the lib into your Library of Intellij
 - Create your own repository in github --> make sure your `git remote -v` pointing to your newly created repository (if not, change using git remote set-url) --> push the code in a problem solving basis, which means once one problem is solved, add, commit & push

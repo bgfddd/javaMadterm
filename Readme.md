@@ -2,17 +2,18 @@
 
 
 ### Submission Process :
-- Deadline for the Midterm is March 23rd, 2021 @ 12PM.
-- Download the zip of the project --> unzip and open using Intellij --> File --> New --> Project Using Existing Source --> Select the downloaded (unzipped) project's directory --> Create Project From Existing Source --> Next --> Next --> Next --> Next
-- Make sure to add all the lib into your Library of Intellij
-- Create your own repository in github --> make sure your `git remote -v` pointing to your newly created repository (if not, change using git remote set-url) --> push the code in a problem solving basis, which means once one problem is solved, add, commit & push
+- Deadline for the midterm submission is August 31st, 2021 @ 6PM.
+- Download the project's zipfile --> Unzip and open using Intellij
+- File -> New -> Project Using Existing Source -> Select the unzipped project's directory
+- Make sure to add all required dependencies to your project (Apache POI, MySQL)
+- Create your own repository in GitHub -> Point your local repo to the remote repo using `git remote add origin <url>` or `git remote set-url` -> Verify local is pointing to correct remote using `git remote -v`
+- Make sure you are regularly committing + pushing your code (ideally, you will push every time you solve a problem)
 - Once your github repo is created, share your github url of the midterm here at --> [click me](https://docs.google.com/spreadsheets/d/1xa0xRvQs5ySBNhmv-eof2sYbQaxiShjqP41vdfwheio/edit?usp=sharing)
 
 ### FYI :
 - You have to complete all the coding problems.
-- Read the questions, there are some code here and there for you guys to explore. Try to understand them how they are working and get the best out of them.
-- Feel free to google. But don't feel free to copy and paste the answer. Try to understand and implement the answers.
-- I would have somebody randomly picked from the class and ask to present and explain on one problem's solution from their submission of the midterm .
+- Read questions thoroughly - You should explore the classes and attempt to understand why each one is there.
+- I encourage you to Google in order to assist in your understanding of a concept, however, copying and pasting code is simply hurting you at the end of the day. Try to understand   what is being asked of you and implement the answers for yourself.
+- We will be reviewing everyones midterm answers in class together on submission date. Please make sure you can explain your answers.
 
-
-# BEST OF LUCK
+# BEST OF LUCK TO YOU ALL

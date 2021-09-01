@@ -1,7 +1,5 @@
 package databases;
 
-import java.parser.Student;
-
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -39,7 +37,7 @@ public class ConnectToSqlDB {
 
     public static List<User> readUserProfileFromSqlTable(){
         List<User> list = new ArrayList<>();
-        User user = Null();
+        User user =  new User();
         try {
             Connection conn = connectToSqlDatabase();
             String query = "SELECT * FROM Students";
@@ -66,10 +64,11 @@ public class ConnectToSqlDB {
     }
 
     public static void main(String[] args) throws IOException, SQLException, ClassNotFoundException {
-        List<User> list = readUserProfileFromSqlTable();
+      /*  List<User> list = readUserProfileFromSqlTable();
         for (User user : list) {
             System.out.println(user.getStName() + " " + user.getStID() + " " + user.getStDOB());
-        }
+        }*/
+        connectToSqlDatabase();
     }
 
     public List<String> readDataBase(String tableName, String columnName) throws Exception {
@@ -167,7 +166,7 @@ public class ConnectToSqlDB {
         return data;
     }
 
-    public void insertDataFromArrayListToSqlTable(List<Student> list, String tableName, String columnName) {
+   /* public void insertDataFromArrayListToSqlTable(List<Student> list, String tableName, String columnName) {
         try {
             connectToSqlDatabase();
             ps = connect.prepareStatement("DROP TABLE IF EXISTS `" + tableName + "`;");
@@ -188,7 +187,7 @@ public class ConnectToSqlDB {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-    }
+    }*/
 
     public void insertProfileToSqlTable(String tableName, String columnName1, String columnName2) {
         try {

@@ -4,6 +4,12 @@ public class Sort {
 
     long executionTime = 0;
 
+    public static void selectionSort(int[] num) {
+    }
+
+    public static void inserationSort(int[] num) {
+    }
+
 
     /*
      * Please implement all the sorting algorithm. Feel free to add helper methods.

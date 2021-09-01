@@ -39,7 +39,7 @@ public class Numbers {
         randomize(num, n);
 
         // Insertion Sort
-        algo.insertionSort(num);
+        algo.inserationSort(num);
         long insertionSortExecutionTime = algo.executionTime;
         System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort took: "
                 + insertionSortExecutionTime + " milliseconds");

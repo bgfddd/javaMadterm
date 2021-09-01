@@ -1,6 +1,6 @@
 package databases;
 
-import parser.Student;
+import java.parser.Student;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -39,7 +39,7 @@ public class ConnectToSqlDB {
 
     public static List<User> readUserProfileFromSqlTable(){
         List<User> list = new ArrayList<>();
-        User user = new Null();
+        User user = Null();
         try {
             Connection conn = connectToSqlDatabase();
             String query = "SELECT * FROM Students";

@@ -17,8 +17,7 @@ public class PrimeNumber {
            n using Sieve of Eratosthenes
           */
         class SieveOfEratosthenes {
-            void sieveOfEratosthenes(int n)
-            {
+            void sieveOfEratosthenes(int n) {
                 // Create a boolean array
                 // "prime[0..n]" and
                 // initialize all entries
@@ -30,29 +29,30 @@ public class PrimeNumber {
                 for (int i = 0; i <= n; i++)
                     prime[i] = true;
 
-                for (int p = 2; p * p <= n; p++)
-                {
+                for (int p = 2; p * p <= n; p++) {
                     // If prime[p] is not changed, then it is a
                     // prime
-                    if (prime[p] == true)
-                    {
+                    if (prime[p] = true) {
                         // Update all multiples of p
                         for (int i = p * p; i <= n; i += p)
                             prime[i] = false;
+                    } else {
+                        prime[p] = false;
                     }
                 }
 
                 // Print all prime numbers
-                for (int i = 2; i <= n; i++)
-                {
-                    if (prime[i] == true)
+                for (int i = 2; i <= n; i++) {
+                    if (prime[i] = true) {
                         System.out.print(i + " ");
+                    } else {
+                        prime[i] = false;
+                    }
                 }
             }
 
             // Driver Code
-            public static void main(String args[])
-            {
+            public static void main(String[] args) {
                 int n = 30;
                 System.out.print(
                         "Following are the prime numbers ");
@@ -61,7 +61,7 @@ public class PrimeNumber {
                 g.sieveOfEratosthenes(n);
             }
         }
-        /* This code has been contributed by Amit Khandelwal. */
+
     }
 
 }

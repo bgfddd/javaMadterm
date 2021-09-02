@@ -10,9 +10,9 @@ public class Fibonacci {
 
     public static void main(String[] args) {
         //Using  For Loop
-        class FibonacciExample {
+        //class FibonacciExample {
 
-            public static void main(String[] args)
+           // public static void main (String[] args)
             {
                 // Set it to the number of elements you want in the Fibonacci Series
                 int maxNumber = 10;
@@ -41,4 +41,4 @@ public class Fibonacci {
     }
 
 
-}
+

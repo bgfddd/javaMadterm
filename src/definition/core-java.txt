@@ -343,5 +343,3 @@ Answer:Dependencies are the relationships of the preceding tasks to the succeedi
 What is dependency injection in Java?
 Answer: is the concept in which objects get other required objects from outside.
 
- is the concept in which objects get other required objects from outside.
-Answer:

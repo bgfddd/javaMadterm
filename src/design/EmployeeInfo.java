@@ -1,8 +1,6 @@
 package design;
 
-import java.util.Scanner;
-
-public class EmployeeInfo {
+//public class EmployeeInfo {
 
     /*
     This class should implement the Employee interface. You can do that by directly implementing it, however you must
@@ -20,7 +18,7 @@ public class EmployeeInfo {
     /*
      * Make sure to declare and use static, non-static & final fields
      */
-    static String companyName;
+//    static String companyName;}
 
     /*
      You must implement the logic for below 2 methods and
@@ -31,13 +29,13 @@ public class EmployeeInfo {
     /*
      You must have/use multiple constructors
      */
-    public EmployeeInfo(int employeeId) {
+   /* public EmployeeInfo(int employeeId) {
 
-    }
+    }*/
 
-    public EmployeeInfo(String name, int employeeId) {
+ /*   public EmployeeInfo(String name, int employeeId) {
 
-    }
+    }*/
 
     /*
      You need to implement the logic of this method as such:
@@ -47,7 +45,7 @@ public class EmployeeInfo {
             You can set arbitrary number for performance, so you probably need to send 2 arguments.
      *
      */
-    public static int calculateEmployeeBonus(int numberOfYearsWithCompany) {
+ /*   public static int calculateEmployeeBonus(int numberOfYearsWithCompany) {
         int total = 0;
         return total;
     }
@@ -59,7 +57,7 @@ public class EmployeeInfo {
             Example: Employee will receive 5% of salary as pension for every year they are with the company
      *
      */
-    public static int calculateEmployeePension() {
+  /*  public static int calculateEmployeePension() {
         int total = 0;
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter start date in format (example: May,2015): ");
@@ -88,7 +86,7 @@ public class EmployeeInfo {
             return actualDate;
         }
 
-        public static int whichMonth(String givenMonth) {
+        /*public static int whichMonth(String givenMonth) {
             Months months = Months.valueOf(givenMonth);
             int date = 0;
             switch (months) {
@@ -136,4 +134,4 @@ public class EmployeeInfo {
 
         }
     }
-}
+}*/

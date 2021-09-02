@@ -1,8 +1,8 @@
 package math.problems;
 
-public class PrimeNumber {
+/*public class PrimeNumber {
 
-    public static void main(String[] args) {
+ /* public static void main(String[] args) {
         /*
         Write a method to print the list of prime numbers from 2 to 1,000,000
             Solving the problem should be your first priority, however bonus points if you can figure out how to
@@ -16,7 +16,7 @@ public class PrimeNumber {
            primes smaller than or equal to
            n using Sieve of Eratosthenes
           */
-        class SieveOfEratosthenes {
+      /*  class SieveOfEratosthenes {
             void sieveOfEratosthenes(int n) {
                 // Create a boolean array
                 // "prime[0..n]" and
@@ -25,7 +25,7 @@ public class PrimeNumber {
                 // prime[i] will finally be
                 // false if i is Not a
                 // prime, else true.
-                boolean prime[] = new boolean[n + 1];
+             /*   boolean prime[] = new boolean[n + 1];
                 for (int i = 0; i <= n; i++)
                     prime[i] = true;
 
@@ -62,6 +62,6 @@ public class PrimeNumber {
             }
         }
 
-    }
+    }*/
 
-}
+

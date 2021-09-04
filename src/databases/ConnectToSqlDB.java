@@ -37,7 +37,7 @@ public class ConnectToSqlDB {
 
     public static List<User> readUserProfileFromSqlTable(){
         List<User> list = new ArrayList<>();
-        User user =  new User();
+        User user = new User();
         try {
             Connection conn = connectToSqlDatabase();
             String query = "SELECT * FROM Students";

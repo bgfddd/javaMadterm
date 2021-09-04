@@ -1,5 +1,9 @@
 package algorithm;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.sql.SQLOutput;
 import java.util.List;
 import java.util.Random;
 
@@ -16,9 +20,21 @@ public class Numbers {
      * At the end. After running all the sorting algo, come to a conclusion which one is suitable on given data set.
      *
      */
-
+     static FileReader fr;
+      static BufferedReader br;
+      static String path = "this is the path";
     public static void main(String[] args) throws Exception {
-
+      try {
+    fr = new FileReader(path);
+    br = new BufferedReader(fr);
+      } catch (FileNotFoundException fnfe) {
+    System.out.println("File not Found at path: " + path);
+     fnfe.printStackTrace();
+       } catch (ArrayIndexOutOfBoundsException aiobe) {
+    System.out.println("Array index out bounds when attempting to read file at path " + path);
+       } catch (Exception e) {
+    System.out.println("We got an error");
+     }
         ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
 
         int[] num = new int[1000000];

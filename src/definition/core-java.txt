@@ -195,7 +195,7 @@ What is final keyword? When and how do we use it?
 Answer: a non-access specifier that is used to restrict a class, variable, and method.
 
 Explain the difference between final, finally and finalize?
-Answer:  is that the final is an access modifier, finally is the block in Exception Handling and finalize is the
+Answer:  is that the final is an keyword, finally is the block in Exception Handling and finalize is the
  method of object class. ... finalize is the method in Java which is used to perform clean up processing just
   before object is garbage collected.
 
